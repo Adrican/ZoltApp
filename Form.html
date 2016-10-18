@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>Zoltar</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script type='text/javascript' src='formjs.js'></script>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		
+	</head>
+    
+	<body id="fondo">
+		<div class="bdy">
+        <h2 class="blanco">Introduce tu fecha de nacimiento y desvelaré secretos sobre tu personalidad</h2>
+		<h1 class="negro"></h1>
+		<h3 class="titulos"></h3>
+		<br>
+		<!--<form name="datos" method="post" onsubmit="sumatorio()" >-->
+		<div id="textbox"><input type="text" size="10" maxlength="10" onKeyUp = "this.value=formateafecha(this.value);"></input>
+		<button class="btn1" onClick="sumatorio()" onmouseover="this.style.backgroundColor='red'" onmouseout="this.style.backgroundColor='black'">Averiguar</button></div>
+		<p id="ayuda">DD/MM/AAAA</p>
+		<!--</form>>-->
+		<p id="num1"></p>
+		<br>
+		<div class="easterEgg"><p> Atletico de Madrid siempre hasta el final.</p></div>
+		<div class="foto"><img src="zoltar1.jpg" class="img-responsive"></div>
+		<div id="volver"><button class="btnVolver" onClick = "location='index.html'" onmouseover="this.style.backgroundColor='red'" onmouseout="this.style.backgroundColor='black'">Atras</button></div>
+		
+        </div>
+	</body>
+</html>
+			

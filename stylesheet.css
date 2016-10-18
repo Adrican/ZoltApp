@@ -1,0 +1,70 @@
+img {
+display:block;
+margin:auto;
+	
+}
+.titulos{
+	text-align:center; 
+    color:red;
+}
+
+.blanco{ 
+	text-align:center; 
+    color:red;
+	font-family: monospace;
+}
+.negro{ 
+	text-align:center; 
+    color:black;
+    font-family: monospace;
+}
+#textbox{
+  margin: 0 auto;
+  width: 200px;
+} 
+
+#fondo{ 
+	text-align:center; 
+    background-color: black;
+	-webkit-background-size: cover;
+}
+
+#num1{
+	color:white;
+	text-align:left;
+	margin-left: 10px;
+}
+
+.btn1{
+	color:white;
+	background-color: black;
+}
+
+.foto{
+	text-align:center; 
+}
+
+.easterEgg{
+	margin: 0 auto;
+	width: 200px;
+}
+
+#volver{
+	position:absolute;
+    bottom:5px;
+    left:10px;
+	
+	
+}
+.btnVolver{
+	color:white;
+	background-color: black;
+}
+
+#ayuda{
+	color:grey;
+}
+#fond{
+    background-color: black;
+}
+
